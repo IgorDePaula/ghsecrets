@@ -15,6 +15,6 @@ class SecretManagerTest extends TestCase
 	 */
 	public function getSecret()
 	{
-		$this->assertEquals('igor1234', SecretManager::getSecret());
+		$this->assertEquals(getenv('my_secret'), SecretManager::getSecret());
 	}
 }
