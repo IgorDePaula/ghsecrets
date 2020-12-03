@@ -1,5 +1,6 @@
 {
     "name": "igor/gh-secret",
+    "description":"test with github secrets",
     "require-dev": {
         "phpunit/phpunit": "^9.4"
     },
