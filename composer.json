@@ -1,0 +1,23 @@
+{
+    "name": "igor/gh-secret",
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "authors": [
+        {
+            "name": "Igor de Paula",
+            "email": "principe.borodin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SecretManager\\":"src/SecretManager"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SecretManagerTest\\":"tests"
+        }
+    },
+    "require": {}
+}
